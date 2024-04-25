@@ -15,7 +15,7 @@ To start using lil-db, just install it in your project with npm:
 
 The docs are divided into three sections:
 
- - Usage docs
- - The process behind lil-db
- - How to contribute
+ - [Usage docs](https://github.com/santiagomirantes/lil-db-docs/blob/main/Usage/USAGE_DOCS.md)
+ - [The process behind lil-db](https://github.com/santiagomirantes/lil-db-docs/blob/main/Process/PROCESS_DOCS.md)
+ - [How to contribute](https://github.com/santiagomirantes/lil-db-docs/blob/main/Contribute/CONTRIBUTE_DOCS.md)
 
