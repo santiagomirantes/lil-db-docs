@@ -31,6 +31,7 @@ async fn() {
 ```
 
 [Move to the next page.](https://www.github.com/santiagomirantes/lil-db-docs/blob/main/Usage/newCollection)
+
 [Go back to the usage docs.](https://www.github.com/santiagomirantes/lil-db-docs/blob/main/Usage/USAGE_DOCS.md)
 
 
