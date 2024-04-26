@@ -29,9 +29,20 @@ async fn() {
    //other lil-db functions
 }
 ```
+## How does lil-db.js organizes data?
+Now that you know how to start using lil-db, you need to learn how to work with it. First we are going to see the logic and then, in the next pages of the docs you are going to find how to code it.
+
+Lil-db divides the data into collections. See collections as groups of JS objects that follow a certain structure.
+
+**Example:** if I had an E-Commerce, I would create at least three collections: users, products and carts.
+
+Once you have the collections, you can push objects to them (like if they were arrays), but **be careful** , the objects must follow the specific structure you´ve previously assigned to the collection when it was created.
+
+The collections can also have connections between them, **for example:** in the E-Commerce situation, I could  give each user a cart so they can push products to it. As you can see, this makes the whole database relational.
+
+Now you will learn how to code all these things in the next pages of the docs.
 
 [Move to the next page.](https://www.github.com/santiagomirantes/lil-db-docs/blob/main/Usage/newCollection)
-
 [Go back to the usage docs.](https://www.github.com/santiagomirantes/lil-db-docs/blob/main/Usage/USAGE_DOCS.md)
 
 
