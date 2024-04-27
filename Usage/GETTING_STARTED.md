@@ -42,7 +42,7 @@ The collections can also have connections between them, **for example:** in the 
 
 Now you will learn how to code all these things in the next pages of the docs.
 
-[Move to the next page.](https://www.github.com/santiagomirantes/lil-db-docs/blob/main/Usage/newCollection)
+[Move to the next page.](https://www.github.com/santiagomirantes/lil-db-docs/blob/main/Usage/newCollection.md)
 
 [Go back to the usage docs.](https://www.github.com/santiagomirantes/lil-db-docs/blob/main/Usage/USAGE_DOCS.md)
 
