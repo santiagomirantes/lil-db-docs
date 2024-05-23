@@ -44,6 +44,7 @@ const collectionModel = {
  - boolean
  - email
  - id(collection_name)
+ - idsArray(collection_name)
  - password
  - object
  - array
@@ -51,7 +52,7 @@ const collectionModel = {
 
 ## Ids connections between collections
  
- The ``id(collection_name)`` data type allows a collection to refer to other collections based on the ids of their objects. If  the collection that is beign referenced doesn´t exist, an error will be thrown.
+ The ``id(collection_name)``and the `idsArray(collection_name)` data types allow a collection to refer to other collections based on the ids of their objects. If  the collection that is beign referenced doesn´t exist, an error will be thrown.
 
 This data type must be an ``index``.
 ## Usage example of the method
@@ -73,11 +74,20 @@ const userModel = {
      "password":"password",
      "age":"number"
 }
+const productsModel = {
+   "name":{
+      "type":"string",
+      "index":true
+    },
+    "price":"number"
+}
 const cartModel = {
-   "user":"id(users)"
+   "user":"id(users)",
+   "products":"idsArray(products)"
 }
 
 await db.newCollection("users",userModel)
+await db.newCollection("products",productsModel)
 await
 db.newCollection("carts", cartModel)
 ```
