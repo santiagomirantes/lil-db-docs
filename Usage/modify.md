@@ -11,7 +11,7 @@ lil-db.modify(collection | string, objectID | string, callback | function)
 ## Usage of the method
 ```js
 const db = require("lil-db")
-await db.init()
+await db.init("./","your-secret")
 
 const usersModel = {
   "name":{
