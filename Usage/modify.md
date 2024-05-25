@@ -28,7 +28,7 @@ let user1 = {
   "age":18
 }
 
-user1 = await db.insert("users",user)
+user1 = await db.insert("users",user1)
 
 await db.modify("users",user1.id,prev => {
    prev.age = 19

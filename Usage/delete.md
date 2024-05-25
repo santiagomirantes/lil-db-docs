@@ -13,7 +13,7 @@ const db = require("lil-db")
 await db.init("./","your-secret")
 
 const productModel = {
-  "name":"string"
+  "name":"string",
   "price":"number"
 }
 
