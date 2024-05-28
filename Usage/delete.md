@@ -1,5 +1,5 @@
 ﻿# lil-db.delete()
-the lil-db.delete() method deletes a specific object from an collection based on it´s id.
+The lil-db.delete() method deletes a specific object from an collection based on it´s id.
 ## Syntax
 ```js
 lil-db.delete(collection | string, objectID | string)
@@ -9,7 +9,7 @@ lil-db.delete(collection | string, objectID | string)
  - objectID: the auto-generated ID of the object that you want to delete
 ## Usage of the method
 ```js
-const db = require("lil-db")
+const db = require("lil-db-js")
 await db.init("./","your-secret")
 
 const productModel = {

@@ -28,9 +28,9 @@ const collectionModel = {
  - type : data that goes in that field (see list below).
  - index : defines if you are going to search objects based on that field of the collection. Passwords, objects and arrays can´t be indexes. 
 Default is  ``true`` for ids and ``false`` for every other type.
- - unique : it can only be ``true`` if index is also ``true``. It restricts two or more objects from having identical values in that field. Default is ``false``.
+ - unique : it can only be ``true`` if `index` is also ``true``. It restricts two or more objects from having identical values in that field. Default is ``false``.
 
-If you want ``index`` and ``unique`` properties set to false, you can just give a string as a value representing the type. **Example:**
+If you want ``index`` and ``unique`` properties set to `false`, you can just give a string as a value representing the type. **Example:**
 ```js
 const collectionModel = {
    "key":"type"
@@ -57,7 +57,7 @@ const collectionModel = {
 This data type must be an ``index``.
 ## Usage example of the method
 ```js
-const db = require("lil-db")
+const db = require("lil-db-js")
 await db.init("./","your-secret")
 
 const userModel = {

@@ -10,7 +10,7 @@ lil-db.modify(collection | string, objectID | string, callback | function)
  - callback: a function that receives the current object with the given id and returns a new object. The returned object must be based on the collection´s model.
 ## Usage of the method
 ```js
-const db = require("lil-db")
+const db = require("lil-db-js")
 await db.init("./","your-secret")
 
 const usersModel = {

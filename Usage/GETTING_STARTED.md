@@ -1,12 +1,12 @@
 ﻿# Getting started with lil-db.js
 
-Once your lil-db.js package is correctly installed, follow the next steps to start using it.
+Once your lil-db-js package is correctly installed, follow the next steps to start using it.
 
 ## Asynchronous Environment
 All the functions of lil-db are [asynchronous](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function), so we recomend you to enclose your code in async/await functions, just like this:
 ```js
  async fn() {
-    const db = require("lil-db")
+    const db = require("lil-db-js")
     await db.someFunction()
  }
   ```
@@ -24,7 +24,7 @@ lil-db.init(path | string, secret | string)
 **Example:**
 ```js
 async fn() {
-   const db = require("lil-db")
+   const db = require("lil-db-js")
    await db.init("./","your-secret")
    //other lil-db functions
 }

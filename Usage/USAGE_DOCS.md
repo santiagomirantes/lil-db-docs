@@ -6,6 +6,7 @@ The following list includes all the parts of the lil-db usage docs in a progress
  - [lil-db.newCollection()](https://github.com/santiagomirantes/lil-db-docs/blob/main/Usage/newCollection.md)
  - [lil-db.insert()](https://github.com/santiagomirantes/lil-db-docs/blob/main/Usage/insert.md)
  - [lil-db.find()](https://github.com/santiagomirantes/lil-db-docs/blob/main/Usage/find.md)
+ -  [lil-db.findIds()](https://github.com/santiagomirantes/lil-db-docs/blob/main/Usage/findIds.md)
  - [lil-db.modify()](https://github.com/santiagomirantes/lil-db-docs/blob/main/Usage/modify.md)
  - [lil-db.delete()](https://github.com/santiagomirantes/lil-db-docs/blob/main/Usage/delete.md)
  - [lil-db.deleteCollection()](https://github.com/santiagomirantes/lil-db-docs/blob/main/Usage/deleteCollection.md)

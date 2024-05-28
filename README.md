@@ -5,17 +5,16 @@
 
 To start using lil-db, just install it in your project with npm:
 
-    npm install lil-db
+    npm install lil-db-js
  Or using YARN:
  
 
-    yarn add lil-db
+    yarn add lil-db-js
   
   ## Docs
 
-The docs are divided into three sections:
+The docs are divided into two sections:
 
  - [Usage docs](https://github.com/santiagomirantes/lil-db-docs/blob/main/Usage/USAGE_DOCS.md)
- - [The process behind lil-db](https://github.com/santiagomirantes/lil-db-docs/blob/main/Process/PROCESS_DOCS.md)
  - [How to contribute](https://github.com/santiagomirantes/lil-db-docs/blob/main/Contribute/CONTRIBUTE_DOCS.md)
 

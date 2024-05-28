@@ -1,5 +1,5 @@
 ﻿# lil-db.find()
-the lil-db.find() method searches through the indexes of an specified collection and returns an array containing the objects that meet the query
+The lil-db.find() method searches through the indexes of an specified collection and returns an array containing the objects that meet the query.
 ## Syntax
 ```js
 lil-db.find(collection | string, index | string, callback | (string || function))
@@ -13,7 +13,7 @@ lil-db.find(collection | string, index | string, callback | (string || function)
  
  ## Usage of the method
 ```js
-const db = require("lil-db")
+const db = require("lil-db-js")
 await db.init("./","your-secret")
 
 const usersModel = {
@@ -55,6 +55,6 @@ await db.find("users","role","user")
 ```
 [Go to the previous page](https://github.com/santiagomirantes/lil-db-docs/blob/main/Usage/insert.md)
 
-[Go to the next page](https://github.com/santiagomirantes/lil-db-docs/blob/main/Usage/modify.md)
+[Go to the next page](https://github.com/santiagomirantes/lil-db-docs/blob/main/Usage/findIds.md)
 
 [Go back to the usage docs](https://github.com/santiagomirantes/lil-db-docs/blob/main/Usage/USAGE_DOCS.md)
